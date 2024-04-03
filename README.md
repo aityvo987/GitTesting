@@ -100,3 +100,4 @@ git rebase main
 git cherry branch-X
 -> giống merge nhưng chỉ lấy commit gần nhất của nhánh X để merge lên nhánh hiện tại
 
+test Cherry
