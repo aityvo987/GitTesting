@@ -10,6 +10,10 @@ Commit: 1 set các thay đổi
 
 Merge: Hợp nhất file của nhánh nào đó vào nhánh hiện tại
 
+Rebase: Lấy những thay đổi của nhánh target để đưa vào nhánh hiện tại
+
+Cherry-pick: Giống merge nhưng chỉ lấy lần commit gần nhất của merge
+
 Conflict: Nếu 2 nhánh có các thay đổi ở cùng 1 file và 1 vị trí sẽ xảy ra xung đột, phải giải quyết xung đột thì mới push được
 
 Push: Đưa các thay đổi lên server
@@ -92,3 +96,5 @@ git fetch --prune
 git rebase main
 -> Giống merge nhưng chỉ ghi đè những thay đổi có trong branch main
 
+git cherry branch-X
+-> giống merge nhưng chỉ lấy commit gần nhất của nhánh X để merge lên nhánh hiện tại
