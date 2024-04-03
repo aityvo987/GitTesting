@@ -1,13 +1,23 @@
 "# GitTesting" 
+
 Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
+
 Repository: Nơi lưu trữ project của người dùng
+
 Branch: Nhánh để lưu các thay đổi cho từng user, tránh xảy ra xung đột giữa nhiều người cùng hoạt động trong một dự án
+
 Commit: 1 set các thay đổi
+
 Merge: Hợp nhất các nhánh thành một
+
 Conflict: Nếu 2 nhánh có các thay đổi ở cùng 1 file và 1 vị trí sẽ xảy ra xung đột, phải giải quyết xung đột thì mới push được
+
 Push: Đưa các thay đổi lên server
+
 Pull: tải các thay đổi có trên server
+
 Checkout: Chọn nhánh nào đó để bắt đầu làm việc
+
 Stash: Lưu các thay đổi vào bộ nhớ tạm
 
 git config --global user.name "TienDat"
