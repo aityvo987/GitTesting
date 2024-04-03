@@ -8,7 +8,7 @@ Branch: Nhánh để lưu các thay đổi cho từng user, tránh xảy ra xung
 
 Commit: 1 set các thay đổi
 
-Merge: Hợp nhất các nhánh thành một
+Merge: Hợp nhất file của nhánh nào đó vào nhánh hiện tại
 
 Conflict: Nếu 2 nhánh có các thay đổi ở cùng 1 file và 1 vị trí sẽ xảy ra xung đột, phải giải quyết xung đột thì mới push được
 
@@ -69,7 +69,7 @@ git reset HEAD~1
 -> Reset tất cả thay đổi về commit lần trước 
 
 git push
--> Đẩy tất cả những stage file và commit lên git server
+-> Đẩy tất cả những stage file và commit lên git server.
 
 git merge #branchname
 -> Merge #branchname vào branch hiện tại
