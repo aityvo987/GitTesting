@@ -88,3 +88,7 @@ git checkout #branchname ./path-to-file
 
 git fetch --prune
 -> Xoá các branch ở local mà không có trên server
+
+git rebase main
+-> Giống merge nhưng chỉ ghi đè những thay đổi có trong branch main
+
