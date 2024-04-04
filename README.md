@@ -17,32 +17,32 @@
 
 ---
 
-### :woman_technologist: About Me :
+### :black_nib: About Me :
 
 
-- Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
+- :pencil2: Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
 
-- Repository: Nơi lưu trữ project của người dùng
+- :pencil2: Repository: Nơi lưu trữ project của người dùng
 
-- Branch: Nhánh để lưu các thay đổi cho từng user, tránh xảy ra xung đột giữa nhiều người cùng hoạt động trong một dự án
+- :pencil2: Branch: Nhánh để lưu các thay đổi cho từng user, tránh xảy ra xung đột giữa nhiều người cùng hoạt động trong một dự án
 
-- Commit: 1 set các thay đổi
+- :pencil2: Commit: 1 set các thay đổi
 
-- Merge: Hợp nhất file của nhánh nào đó vào nhánh hiện tại
+- :pencil2: Merge: Hợp nhất file của nhánh nào đó vào nhánh hiện tại
 
-- Rebase: Lấy những thay đổi của nhánh target để đưa vào nhánh hiện tại
+- :pencil2: Rebase: Lấy những thay đổi của nhánh target để đưa vào nhánh hiện tại
 
-- Cherry-pick: Giống merge nhưng chỉ lấy lần commit gần nhất của merge
+- :pencil2: Cherry-pick: Giống merge nhưng chỉ lấy lần commit gần nhất của merge
 
-- Conflict: Nếu 2 nhánh có các thay đổi ở cùng 1 file và 1 vị trí sẽ xảy ra xung đột, phải giải quyết xung đột thì mới push được
+- :pencil2: Conflict: Nếu 2 nhánh có các thay đổi ở cùng 1 file và 1 vị trí sẽ xảy ra xung đột, phải giải quyết xung đột thì mới push được
 
-- Push: Đưa các thay đổi lên server
+- :pencil2: Push: Đưa các thay đổi lên server
 
-- Pull: tải các thay đổi có trên server
+- :pencil2: Pull: tải các thay đổi có trên server
 
-- Checkout: Chọn nhánh nào đó để bắt đầu làm việc
+- :pencil2: Checkout: Chọn nhánh nào đó để bắt đầu làm việc
 
-- Stash: Lưu các thay đổi vào bộ nhớ tạm
+- :pencil2: Stash: Lưu các thay đổi vào bộ nhớ tạm
 
 git config --global user.name "TienDat"
 -> Set username cho user git
