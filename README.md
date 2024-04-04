@@ -45,79 +45,79 @@
 - :pencil2: Stash: Lưu các thay đổi vào bộ nhớ tạm
 
 git config --global user.name "TienDat"
--> Set username cho user git
+:arrow_right:  Set username cho user git
 
 git config --global user.email aityvo987@gmail.com
--> Set email cho user git
+:arrow_right:  Set email cho user git
 
 git config credential.helper store
--> Lưu thông tin tk, mk user lâu dài
+:arrow_right: Lưu thông tin tk, mk user lâu dài
 
 git config credential.helper cache
--> Lưu thông tin tk, mk user ngắn hạn
+:arrow_right:  Lưu thông tin tk, mk user ngắn hạn
 
 git config --global alias.s status
--> Lưu tên viết tắt cho các câu lệnh (s cho status)
+:arrow_right:  Lưu tên viết tắt cho các câu lệnh (s cho status)
 
 git clone #something
--> Tải về một Repository dựa trên link #something
+:arrow_right:  Tải về một Repository dựa trên link #something
 
 git init
--> Khởi tạo Repository cho thư mục hiện tại
+:arrow_right:  Khởi tạo Repository cho thư mục hiện tại
 
 git remote add origin #something
--> Gắn file local với link git ở #something, để có thể tuong tác với Repository 
+:arrow_right:  Gắn file local với link git ở #something, để có thể tuong tác với Repository 
 
 git status
--> Coi tình trạng cập nhật so với bản ở git, các file đã thay đổi so với lần cập nhật gần nhất
+:arrow_right:  Coi tình trạng cập nhật so với bản ở git, các file đã thay đổi so với lần cập nhật gần nhất
 
 git branch #branchname
--> Tạo một branch mới có tên #branchname
+:arrow_right:  Tạo một branch mới có tên #branchname
 
 git checkout #branchname
--> Chuyển thư mục làm việc sang nhánh có tên #branchname
+:arrow_right:  Chuyển thư mục làm việc sang nhánh có tên #branchname
 
 git add. 
--> Stage tất cả các file
+:arrow_right:  Stage tất cả các file
 
 git add ./name-folder
--> Stage file có trong folder có đường dẫn ./name-folder
+:arrow_right:  Stage file có trong folder có đường dẫn ./name-folder
 
 git reset ./name-folder/...
--> Unstage các file theo đường dẫn
+:arrow_right:  Unstage các file theo đường dẫn
 
 git commit -m "Something"
--> Commit, tức ghi chú cho các file đã thay đổi cho lần cập nhật này
+:arrow_right:  Commit, tức ghi chú cho các file đã thay đổi cho lần cập nhật này
 
 git reset HEAD~1
--> Reset tất cả thay đổi về commit lần trước 
+:arrow_right:  Reset tất cả thay đổi về commit lần trước 
 
 git push
--> Đẩy tất cả những stage file và commit lên git server.
+:arrow_right:  Đẩy tất cả những stage file và commit lên git server.
 
 git merge #branchname
--> Merge #branchname vào branch hiện tại
+:arrow_right:  Merge #branchname vào branch hiện tại
 
 git pull
--> Cập nhật những thay đổi có trong Repository trên server cho tất cả các branch
+:arrow_right:  Cập nhật những thay đổi có trong Repository trên server cho tất cả các branch
 
 git stash
--> Bỏ vào ô nhớ tạm thời các thay đổi đã thực hiện trên một branch
+:arrow_right:  Bỏ vào ô nhớ tạm thời các thay đổi đã thực hiện trên một branch
 
 git stash pop
--> Lấy ra các thay đổi có trong ô nhớ của một branch
+:arrow_right:  Lấy ra các thay đổi có trong ô nhớ của một branch
 
 git checkout #branchname ./path-to-file
--> Thay thế file có trong branch hiện tại với file có trên #branchname
+:arrow_right:  Thay thế file có trong branch hiện tại với file có trên #branchname
 
 git fetch --prune
 
--> Xoá các branch ở local mà không có trên server
+:arrow_right:  Xoá các branch ở local mà không có trên server
 
 git rebase main
--> Giống merge nhưng chỉ ghi đè những thay đổi có trong branch main
+:arrow_right:  Giống merge nhưng chỉ ghi đè những thay đổi có trong branch main
 
 git cherry branch-X
--> giống merge nhưng chỉ lấy commit gần nhất của nhánh X để merge lên nhánh hiện tại
+:arrow_right:  giống merge nhưng chỉ lấy commit gần nhất của nhánh X để merge lên nhánh hiện tại
 
 test Cherry
