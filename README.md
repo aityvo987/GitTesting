@@ -14,10 +14,12 @@
     </div>
     <h1>Halo</h1>
 </div>
+---
+
+### :&#128273: About Me :
 
 
-
-- <i class="fa fa-address-book" style="font-size:48px;color:red"></i> Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
+- Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
 
 - Repository: Nơi lưu trữ project của người dùng
 
