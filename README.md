@@ -3,21 +3,42 @@
   <img src="https://i.imgur.com/c7iirLS.jpg" width="100"/>
 </div>
 
-<h1>
-    This is Note for git testing from Dat
-</h1>
+<div id="badges">
+  <a href="your-linkedin-URL">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="your-youtube-URL">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="your-twitter-URL">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>
+
 - Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
+
 - Repository: Nơi lưu trữ project của người dùng
+
 - Branch: Nhánh để lưu các thay đổi cho từng user, tránh xảy ra xung đột giữa nhiều người cùng hoạt động trong một dự án
+
 - Commit: 1 set các thay đổi
+
 - Merge: Hợp nhất file của nhánh nào đó vào nhánh hiện tại
+
 - Rebase: Lấy những thay đổi của nhánh target để đưa vào nhánh hiện tại
+
 - Cherry-pick: Giống merge nhưng chỉ lấy lần commit gần nhất của merge
+
 - Conflict: Nếu 2 nhánh có các thay đổi ở cùng 1 file và 1 vị trí sẽ xảy ra xung đột, phải giải quyết xung đột thì mới push được
+
 - Push: Đưa các thay đổi lên server
+
 - Pull: tải các thay đổi có trên server
+
 - Checkout: Chọn nhánh nào đó để bắt đầu làm việc
+
 - Stash: Lưu các thay đổi vào bộ nhớ tạm
+
 git config --global user.name "TienDat"
 -> Set username cho user git
 
