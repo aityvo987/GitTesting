@@ -44,80 +44,58 @@
 
 - :pencil2: Stash: Lưu các thay đổi vào bộ nhớ tạm
 
-git config --global user.name "TienDat"
-:arrow_right:  Set username cho user git
+===
 
-git config --global user.email aityvo987@gmail.com
-:arrow_right:  Set email cho user git
+---
 
-git config credential.helper store
-:arrow_right: Lưu thông tin tk, mk user lâu dài
+git config --global user.name "TienDat" :arrow_right:  Set username cho user git
 
-git config credential.helper cache
-:arrow_right:  Lưu thông tin tk, mk user ngắn hạn
+git config --global user.email aityvo987@gmail.com :arrow_right:  Set email cho user git
 
-git config --global alias.s status
-:arrow_right:  Lưu tên viết tắt cho các câu lệnh (s cho status)
+git config credential.helper store :arrow_right: Lưu thông tin tk, mk user lâu dài
 
-git clone #something
-:arrow_right:  Tải về một Repository dựa trên link #something
+git config credential.helper cache :arrow_right:  Lưu thông tin tk, mk user ngắn hạn
 
-git init
-:arrow_right:  Khởi tạo Repository cho thư mục hiện tại
+git config --global alias.s status :arrow_right:  Lưu tên viết tắt cho các câu lệnh (s cho status)
 
-git remote add origin #something
-:arrow_right:  Gắn file local với link git ở #something, để có thể tuong tác với Repository 
+git clone #something :arrow_right:  Tải về một Repository dựa trên link #something
 
-git status
-:arrow_right:  Coi tình trạng cập nhật so với bản ở git, các file đã thay đổi so với lần cập nhật gần nhất
+git init :arrow_right:  Khởi tạo Repository cho thư mục hiện tại
 
-git branch #branchname
-:arrow_right:  Tạo một branch mới có tên #branchname
+git remote add origin #something :arrow_right:  Gắn file local với link git ở #something, để có thể tuong tác với Repository 
 
-git checkout #branchname
-:arrow_right:  Chuyển thư mục làm việc sang nhánh có tên #branchname
+git status :arrow_right:  Coi tình trạng cập nhật so với bản ở git, các file đã thay đổi so với lần cập nhật gần nhất
 
-git add. 
-:arrow_right:  Stage tất cả các file
+git branch #branchname :arrow_right:  Tạo một branch mới có tên #branchname
 
-git add ./name-folder
-:arrow_right:  Stage file có trong folder có đường dẫn ./name-folder
+git checkout #branchname :arrow_right:  Chuyển thư mục làm việc sang nhánh có tên #branchname
 
-git reset ./name-folder/...
-:arrow_right:  Unstage các file theo đường dẫn
+git add.  :arrow_right:  Stage tất cả các file
 
-git commit -m "Something"
-:arrow_right:  Commit, tức ghi chú cho các file đã thay đổi cho lần cập nhật này
+git add ./name-folder :arrow_right:  Stage file có trong folder có đường dẫn ./name-folder
 
-git reset HEAD~1
-:arrow_right:  Reset tất cả thay đổi về commit lần trước 
+git reset ./name-folder/... :arrow_right:  Unstage các file theo đường dẫn
 
-git push
-:arrow_right:  Đẩy tất cả những stage file và commit lên git server.
+git commit -m "Something" :arrow_right:  Commit, tức ghi chú cho các file đã thay đổi cho lần cập nhật này
 
-git merge #branchname
-:arrow_right:  Merge #branchname vào branch hiện tại
+git reset HEAD~1 :arrow_right:  Reset tất cả thay đổi về commit lần trước 
 
-git pull
-:arrow_right:  Cập nhật những thay đổi có trong Repository trên server cho tất cả các branch
+git push :arrow_right:  Đẩy tất cả những stage file và commit lên git server.
 
-git stash
-:arrow_right:  Bỏ vào ô nhớ tạm thời các thay đổi đã thực hiện trên một branch
+git merge #branchname :arrow_right:  Merge #branchname vào branch hiện tại
 
-git stash pop
-:arrow_right:  Lấy ra các thay đổi có trong ô nhớ của một branch
+git pull :arrow_right:  Cập nhật những thay đổi có trong Repository trên server cho tất cả các branch
 
-git checkout #branchname ./path-to-file
-:arrow_right:  Thay thế file có trong branch hiện tại với file có trên #branchname
+git stash :arrow_right:  Bỏ vào ô nhớ tạm thời các thay đổi đã thực hiện trên một branch
 
-git fetch --prune
+git stash pop :arrow_right:  Lấy ra các thay đổi có trong ô nhớ của một branch
 
-:arrow_right:  Xoá các branch ở local mà không có trên server
+git checkout #branchname ./path-to-file :arrow_right:  Thay thế file có trong branch hiện tại với file có trên #branchname
 
-git rebase main
-:arrow_right:  Giống merge nhưng chỉ ghi đè những thay đổi có trong branch main
+git fetch --prune :arrow_right:  Xoá các branch ở local mà không có trên server
 
-git cherry branch-X
-:arrow_right:  giống merge nhưng chỉ lấy commit gần nhất của nhánh X để merge lên nhánh hiện tại
+git rebase main :arrow_right:  Giống merge nhưng chỉ ghi đè những thay đổi có trong branch main
+
+git cherry branch-X :arrow_right:  giống merge nhưng chỉ lấy commit gần nhất của nhánh X để merge lên nhánh hiện tại
 
 test Cherry
