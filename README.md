@@ -14,9 +14,10 @@
     </div>
     <h1>Halo</h1>
 </div>
+
 ---
 
-### :&#128273: About Me :
+### :woman_technologist: About Me :
 
 
 - Git: Version Control system giúp người sử dụng quản lý các phiên bản của một project
